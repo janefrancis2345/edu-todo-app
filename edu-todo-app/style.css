@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    min-width: 200px;
+    background-image: url("images/tech-migraines-pexels.2e16d0ba.fill-1200x630-c0.jpg");
+    background-repeat: repeat-y;
+    background-size: cover; 
+
+    
+}
+.container{
+    box-sizing: content-box;
+}
+.header{
+    background-color:rgb(56, 54, 54);
+    padding:30px 40px 30px 40px;
+    color:yellow;
+    text-align: center;
+    font-style: italic;
+    
+}
+#input{
+    width:60%;
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 15px;
+}
+.add{
+    padding: 10px;
+    width: 12px;
+    cursor: pointer;
+    
+}
+.add:hover{
+    background-color: cornsilk;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    background-color: rgb(49, 39, 49);
+    color:yellow;
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+    padding: 10px 4px 10px 3px;
+    font-size: 20px;
+}
+ul li:hover{
+    background-color: rgb(112, 109, 109);
+
+}
+.close{
+    position: absolute;
+    right: 0;
+    top:0;
+    padding: 10px 15px 10px 15px;
+}
+.close:hover{
+    background-color: darkgrey;
+}
